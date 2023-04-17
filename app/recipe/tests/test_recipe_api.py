@@ -15,7 +15,6 @@ from core.models import (
     Tag,
 )
 
-from recipe.serializers import RecipeSerializer
 from recipe.serializers import (
     RecipeSerializer,
     RecipeDetailSerializer,
