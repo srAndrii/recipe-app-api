@@ -72,7 +72,7 @@ class PrivateIngredientsApiTests(TestCase):
         self.assertEqual(res.data[0]['name'], ingredient.name)
         self.assertEqual(res.data[0]['id'], ingredient.id)
 
-     def test_update_ingredient(self):
+    def test_update_ingredient(self):
         """Test updating an ingredient."""
         ingredient = Ingredient.objects.create(user=self.user, name='Cilantro')
 
